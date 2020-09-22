@@ -1,0 +1,8 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .grafico{
+    margin: 0 auto;
+}

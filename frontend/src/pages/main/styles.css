@@ -1,0 +1,45 @@
+.main-content{
+    display: flex;
+    margin-top: 64px;
+}
+
+.main-content img {
+    width: 180px;
+    height: 180px;
+
+}
+
+.main-content fieldset{
+    width: 500px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    border: 0;
+}
+
+.main-content p{
+    grid-row: 1;
+    margin-top: 46px;
+    text-align: justify;
+}
+
+#valor{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+@media (max-width:800px){
+    .main-content{
+        display: flex;
+        flex-direction: column;    
+        margin-top: 64px;
+
+    }
+    .main-content fieldset{
+        margin-bottom: 64px;
+        width: 300px;
+    }
+
+}

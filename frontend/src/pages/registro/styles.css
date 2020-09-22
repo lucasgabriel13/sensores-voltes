@@ -1,0 +1,39 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+
+.content table{
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    border: 1px solid #a6b3bb;
+
+}
+
+.content table thead{
+    background-color: #61cbfb;
+    border: 1px solid #61cbfb;
+}
+
+.content tbody tr{
+    border-bottom:1px solid #a6b3bb;
+    background-color: #e9f6fe;
+}
+
+.content #title{
+    margin-top: 2rem;
+}
+
+
+@media (max-width:800px){
+    .content table{
+        width: 300px;
+        margin: 25px auto;
+    }
+}

@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    background-color: #0ac1fa;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    margin-left: 25px;
+    color: #ffffff;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header a{
+    text-decoration: none;
+
+    margin-right: 25px;
+    padding: 12px;
+    
+    border:1px solid #ffffff;
+    border-radius: 5px;
+
+    background-color:#049ccc;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+header a:hover{
+    background-color: #61cbfb;
+    margin-top:-6px;
+}
